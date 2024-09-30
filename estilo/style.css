@@ -29,12 +29,15 @@ lilás #5f2c82
     position: absolute;
     border-radius: 20px;
     background-color: white;
+
     width: 250px;
     height: 500px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.430);
+    transition: width .3s height .3s;
+    transition-timing-function: ease;
 
  }
  section#login > div#imagem{
