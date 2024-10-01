@@ -31,13 +31,14 @@ lilás #5f2c82
     background-color: white;
 
     width: 250px;
-    height: 500px;
+    height: 515px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.430);
     transition: width .3s height .3s;
     transition-timing-function: ease;
+   
 
  }
  section#login > div#imagem{
@@ -50,6 +51,7 @@ lilás #5f2c82
  section#login > div#formulario{
     padding: 20px;
     display: block;
+    
  }
  div#formulario > h1{
     text-align: center;
@@ -58,3 +60,49 @@ lilás #5f2c82
  div#formulario > p{
     font-size: .8em;
  }
+ div.campo{
+   margin: 5px 0px;
+ }
+ form >input[type=submit]{
+   cursor: pointer;
+   display: block;
+   font-size: 1em;
+   width: 100%;
+   border: none;
+   height: 40px;
+   border-radius: 5PX;
+   background-color: #49a09d ;
+   color: white;
+ }
+ form >input[type=reset]{
+   cursor: pointer;
+   display: block;
+   font-size: 1em;
+   width: 100%;
+   border: none;
+   height: 40px;
+   background-color: #79d8d5;
+   border-radius: 5PX;
+   color: white;
+   margin-top: 5px;
+ }
+ form >input[type=submit]:hover{
+   background-color: #8de0de;
+
+ }
+ form >input[type=reset]:hover{
+   background-color: #646b6b;
+
+ }
+ form > a.botao{
+   cursor: pointer;
+   display: block;
+   font-size: 1em;
+   width: 100%;
+   height: 40px;
+   text-align: center;
+   
+   
+ }
+
+ 
