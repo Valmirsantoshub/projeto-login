@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto login</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/media query.css">
 </head>
@@ -12,14 +13,27 @@
         <section id="login">
             <div id="imagem">
                 
-
             </div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>
                     seja bem vindo(a) novamente.faça login para acessar novamente e poder fazer suas configurações no seu ambiente.
                     <form action="login.php" method="post">
-                        <label for="email">E-mail:</label>
+                        <div class="campo">
+                            
+                        <input type="email" name="login" id="ilogin" required placeholder="seu e-mail" autocomplete="email" maxlength="30">
+                        <label for="ilogin">Login:</label>
+                        </div><br>
+                        <div class="campo">
+                            <input type="password" name="senha" id="isenha" required placeholder="senha" autocomplete="current-password" minlength="8" maxlength="20">
+                            <label for="isenha">Senha:</label>
+                            
+                        </div><br>
+                        <input type="submit" value="Entrar">
+                        <input type="reset" value="Limpar"><br><br>
+                        <a href="esqueci-html">
+                            esqueci a senha
+                        </a>
                     </form>
                 </p>
             </div>
